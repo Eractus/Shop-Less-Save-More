@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Shop Less, Save More",
+  "description": "A simple pluging that allows you to customize reminders to let you know if you've visited Amazon or other popular e-tail sites a few too many times today.",
+  "version": "1",
+  "author": "Danny Peng",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "history"
+   ]
+}
